@@ -1,0 +1,80 @@
+body{
+     margin:0px;
+     padding:0px;
+     width:100%;
+      background-repeat:repeat;
+
+}
+/********************************************* header Sections ********************************************/  
+#header{
+width:100%;
+}
+
+#nav{
+	 
+	 padding:30px;
+	 list-style-type: none;
+     margin-top:0px;
+	 font-size:15px;
+     box-shadow: 0px 0px 20px 5px rgba(0,0,0,1); 
+     height:60px;
+     font-family:"Book Antiqua";
+     font-weight:bold;
+     }
+	
+
+    
+#nav-current{
+	display:inline;
+	color:red;
+	padding:20px;
+	border-top:5px solid #EDE133;
+    border-bottom:5px solid #CCB923;
+    transition:0.3s;
+    margin-top:-30px;
+    border-radius:10px 10px 10px 10px;
+	}
+
+
+#nav-t{
+    display:inline;
+    margin-top:30px;
+}	
+
+#nav-main{
+    display:inline;
+    padding:20px;
+    color:red;
+    transition:0.3s;
+    margin-top:-30px;
+    border-radius:10px 10px 10px 10px;
+    
+    }
+  /********************************************* BODY Sections ********************************************/    
+
+#item{
+
+border-radius: 5px 5px 5px 5px;
+background-color:#FFF4CB;
+width:70%;
+color:#762C0A;
+padding:30px;
+margin-top:50px;
+box-shadow: 0px 0px 30px 8px rgba(0,0,0,1);
+margin-bottom:30px;
+ } 
+/********************************************* Footer sections ********************************************/  
+#footer-container {
+width:100%;
+ margin-top:60px;
+
+}  
+     
+#footer {
+box-shadow:0px 0px 20px 4px #000;
+padding-top:40px;
+width:100%;
+padding-bottom:40px;
+border-bottom:none;
+
+}
